@@ -57,6 +57,8 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
+
 /* Estilo para as linhas de informações */
 .info-row {
   display: flex;
@@ -3150,4 +3152,78 @@ section {
 /* Estilo para a checkbox marcada */
 #modal-toggle:checked ~ .modal {
   display: block;
+}
+
+
+/*--------------------------------------------------------------
+# Section 0
+--------------------------------------------------------------*/
+
+.zerosection {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.zerosection-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.zerosection-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.zerosection-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #fff;
+}
+
+.zerosection-caption {
+  position: absolute;
+  right: 0;
+  bottom: 10.25rem;
+  left: 60%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #2c2c2c;
+  text-align: left;
+  padding-right: 8%;
+}
+
+
+.zerosection-caption h2 {
+  margin-top: 0;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-bottom: 2%;
+}
+
+.zerosection-caption p {
+  margin-bottom: 9%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid transparent;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
