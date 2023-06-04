@@ -1509,7 +1509,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: red;
 }
 
 .about .our-story p:last-child {
@@ -3142,6 +3142,7 @@ section {
   position: relative;
   border-radius: 20px;
   border: 3px solid red;
+  transition: background-color 0.5s;
 
 }
 
