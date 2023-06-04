@@ -63,6 +63,7 @@ h6 {
 section {
   padding: 80px 0;
   overflow: hidden;
+  border-bottom: 1px solid #fff;
 }
 
 .section-bg {
