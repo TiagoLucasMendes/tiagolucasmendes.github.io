@@ -33,7 +33,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
+  color: #ffff;
   overflow-x: hidden;
   background-color: #000;
 }
@@ -1124,7 +1124,7 @@ section {
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: #ffff;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
