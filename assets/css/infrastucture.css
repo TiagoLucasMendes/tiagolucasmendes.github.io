@@ -3189,19 +3189,20 @@ section {
 .zerosection-caption {
   position: absolute;
   right: 0;
-  bottom: 1.25rem;
+  bottom: 5.25rem;
   left: 60%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: #2c2c2c;
+  color: #fff;
   text-align: left;
   padding-right: 8%;
+  max-width: 60%;
 }
 
 
 .zerosection-caption h2 {
   margin-top: 0;
-  font-size: 55px;
+  font-size: 4vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   padding-bottom: 2%;
@@ -3209,7 +3210,7 @@ section {
 
 .zerosection-caption p {
   margin-bottom: 9%;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 200;
 
@@ -3221,9 +3222,16 @@ table {
 
 th, td {
   text-transform: uppercase;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid #fff;
   border-right: 2px solid transparent;
   padding: 10px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .zerosection-caption {
+    left: 10%; /* Modifique o posicionamento em telas menores */
+    right: 10%;
+  }
 }
