@@ -3189,12 +3189,12 @@ section {
 .zerosection-caption {
   position: absolute;
   right: 0;
-  bottom: 5.25rem;
+  bottom: 1.25rem;
   left: 60%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  text-align: left;
+  text-align: justify;
   padding-right: 8%;
   max-width: 60%;
 }
